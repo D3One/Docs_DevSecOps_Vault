@@ -34,9 +34,10 @@ jobs:
           context: . # Path to your Dockerfile, '.' for current directory
           push: true
             tags:
-            ivanpiskunov/sectools:latest
-            ivanpiskunov/sectools:${{ env.app_version }}
-          # ${{ env.DOCKER_IMAGE_NAME }}:${{ env.DOCKER_TAG }}
-          # ${{ env.DOCKER_IMAGE_NAME }}:latest # Optionally push with 'latest' tag
-          build-args: |
+          
+           ${{ env.DOCKER_IMAGE_NAME }}:${{ env.DOCKER_TAG }}
+           ${{ env.DOCKER_IMAGE_NAME }}:latest # Optionally push with 'latest' tag
+          
+          build-args: 
+           MY_ARG=1
             # Add any build arguments here, e.g., MY_ARG=value
