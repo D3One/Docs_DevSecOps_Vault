@@ -33,7 +33,7 @@ jobs:
         with:
           context: . # Path to your Dockerfile, '.' for current directory
           push: true
-          tags:
+          tags: |
             ${{ env.DOCKER_IMAGE_NAME }}:${{ env.DOCKER_TAG }}
             ${{ env.DOCKER_IMAGE_NAME }}:latest # Optionally push with 'latest' tag
           
