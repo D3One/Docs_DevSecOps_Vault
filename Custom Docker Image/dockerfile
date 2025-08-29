@@ -1,7 +1,7 @@
 # Stage 1: Builder stage to compile and install tools
 FROM alpine:latest AS builder
 
-# Install dependencies needed for building tools
+# Install dependencies needed for building tools 
 RUN apk add --no-cache \
     git \
     go \
