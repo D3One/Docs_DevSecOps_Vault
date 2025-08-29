@@ -35,7 +35,7 @@ jobs:
           push: true
           tags: 
           
-            SecTltk_1:latest
+            dsectlk_1:latest
             
           
           build-args: |
