@@ -23,7 +23,7 @@ jobs:
       - name: Log in to Docker Hub
         uses: docker/login-action@v3
         with:
-          registry: https://hub.docker.com
+        # registry: https://hub.docker.com
           username: ivanpiskunov # ${{ secrets.DOCKERHUB_USERNAME }}
           password: $lMjW76CP#%94x@t # ${{ secrets.DOCKER_TOKEN }}
           logout: true
