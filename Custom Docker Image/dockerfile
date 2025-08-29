@@ -1,5 +1,5 @@
 # Stage 1: Builder stage to compile and install tools
-FROM alpine:latest AS builder
+FROM alpine:latest AS builder 
 
 # Install dependencies needed for building tools 
 RUN apk add --no-cache \
@@ -28,7 +28,7 @@ RUN git clone https://github.com/aquasecurity/kube-bench.git /opt/kube-bench \
 # Install Checkov (Terraform and cloud infrastructure security scanner)
 RUN pip3 install --no-cache-dir checkov
 
-# Install KubeLinter (static analysis tool for Kubernetes YAML files_)
+# Install KubeLinter (static analysis tool for Kubernetes YAML files)
 RUN go install github.com/stackrox/kube-linter/cmd/kube-linter@latest \
     && mv /root/go/bin/kube-linter /usr/local/bin/
 
