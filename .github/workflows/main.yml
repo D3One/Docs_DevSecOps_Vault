@@ -31,12 +31,12 @@ jobs:
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
         with:
-          context: /Custom Docker Image/ # Path to your Dockerfile, '.' for current directory
+          context: . # Path to your Dockerfile, '.' for current directory
           push: true
             tags:
-          
-           ${{ env.DOCKER_IMAGE_NAME }}:${{ env.DOCKER_TAG }}
-           ${{ env.DOCKER_IMAGE_NAME }}:latest # Optionally push with 'latest' tag
+           ivanpiskunov/seckit_v1:latest
+           # ${{ env.DOCKER_IMAGE_NAME }}:${{ env.DOCKER_TAG }}
+          #  ${{ env.DOCKER_IMAGE_NAME }}:latest # Optionally push with 'latest' tag
           
           build-args: 
            MY_ARG=1
