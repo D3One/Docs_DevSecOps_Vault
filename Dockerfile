@@ -50,7 +50,7 @@ RUN apk add --no-cache \
     && rm -rf /var/cache/apk/*
 
 # Copy installed tools from the builder stage
-COPY --from=builder /usr/local/bin/trivy /usr/local/bin/
+# COPY --from=builder /usr/local/bin/trivy /usr/local/bin/
 COPY --from=builder /usr/local/bin/kube-bench /usr/local/bin/
 COPY --from=builder /usr/local/bin/kube-linter /usr/local/bin/
 COPY --from=builder /usr/local/bin/checkov /usr/local/bin/
