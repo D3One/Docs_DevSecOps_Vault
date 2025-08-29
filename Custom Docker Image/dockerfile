@@ -28,7 +28,7 @@ RUN git clone https://github.com/aquasecurity/kube-bench.git /opt/kube-bench \
 # Install Checkov (Terraform and cloud infrastructure security scanner)
 RUN pip3 install --no-cache-dir checkov
 
-# Install KubeLinter (static analysis tool for Kubernetes YAML files)
+# Install KubeLinter (static analysis tool for Kubernetes YAML files_)
 RUN go install github.com/stackrox/kube-linter/cmd/kube-linter@latest \
     && mv /root/go/bin/kube-linter /usr/local/bin/
 
