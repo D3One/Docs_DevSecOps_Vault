@@ -18,8 +18,8 @@ RUN apk add --no-cache \
     && rm -rf /var/cache/apk/*
 
 # Install Trivy (vulnerability scanner for containers)
-# RUN wget -O /usr/local/bin/trivy https://github.com/aquasecurity/trivy/releases/latest/download/trivy_linux_64bit \
-#    && chmod +x /usr/local/bin/trivy
+ RUN wget -O /usr/local/bin/trivy https://github.com/aquasecurity/trivy/releases/latest/download/trivy_linux_64bit \
+    && chmod +x /usr/local/bin/trivy
 
 # Install Kube-Bench (Kubernetes security benchmark tool)
 RUN git clone https://github.com/aquasecurity/kube-bench.git /opt/kube-bench \
@@ -50,7 +50,7 @@ RUN apk add --no-cache \
     && rm -rf /var/cache/apk/*
 
 # Copy installed tools from the builder stage
-# COPY --from=builder /usr/local/bin/trivy /usr/local/bin/
+COPY --from=builder /usr/local/bin/trivy /usr/local/bin/
 COPY --from=builder /usr/local/bin/kube-bench /usr/local/bin/
 COPY --from=builder /usr/local/bin/kube-linter /usr/local/bin/
 COPY --from=builder /usr/local/bin/checkov /usr/local/bin/
