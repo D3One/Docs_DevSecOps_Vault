@@ -66,4 +66,4 @@ USER devsecops
 ENV PATH="/usr/local/bin:${PATH}"
 
 # Define default command
-CMD ["/bin/sh"]
+CMD ["/bin/sh"] 
