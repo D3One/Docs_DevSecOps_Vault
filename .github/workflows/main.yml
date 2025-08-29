@@ -33,10 +33,6 @@ jobs:
         with:
           context: . # Path to your Dockerfile, '.' for current directory
           push: true
-          tags: 
-          
-            ivanpiskunov/sectool:latest
-            
-          
+          tags: ivanpiskunov/sectool:latest
           build-args: |
             # Add any build arguments here, e.g., MY_ARG=value
