@@ -194,10 +194,4 @@ If you cannot install Docker locally, you can use the following methods to build
         docker cp temp-container:/usr/local/bin/trivy ./trivy
         docker rm temp-container
         ```
-
 ---
-
-### 💡 **Additional Recommendations**
--   **Version Pinning**: In the Dockerfile, pin versions of the tools to ensure stability (e.g., `wget -O /usr/local/bin/trivy https://github.com/aquasecurity/trivy/releases/download/v0.45.1/trivy_0.45.1_Linux-64bit.tar.gz`).
--   **Healthchecks**: Add a HEALTHCHECK instruction to the Dockerfile to monitor container status.
--   **Documentation**: In the README, include examples for each tool and best practices for integration into CI/CD pipelines .
