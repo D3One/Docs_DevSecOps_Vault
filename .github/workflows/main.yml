@@ -31,9 +31,9 @@ jobs:
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
         with:
-          context: https://github.com/D3One/Docs_DevSecOps_Vault/tree/main/Custom%20Docker%20Image # Path to your Dockerfile, '.' for current directory
+          context: . # Path to your Dockerfile, '.' for current directory
           push: true
-            tags:
+          tags:
             ${{ env.DOCKER_IMAGE_NAME }}:${{ env.DOCKER_TAG }}
             ${{ env.DOCKER_IMAGE_NAME }}:latest # Optionally push with 'latest' tag
           
