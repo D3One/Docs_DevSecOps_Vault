@@ -2,6 +2,8 @@
 
 A curated collection of checklists, best practices, and practical guides for securing Amazon Web Services (AWS) environments. This repository is specifically designed for cloud security professionals, DevOps engineers, and compliance auditors.
 
+<img width="1203" height="630" alt="image" src="https://github.com/user-attachments/assets/8b8c2165-cc25-4d1a-ab4a-d2725b7d96df" />
+
 ## 📋 Overview
 
 AWS Cloud Security refers to the practices, technologies, and policies implemented to protect cloud-based systems, data, and infrastructure on Amazon Web Services. This repository provides practical resources for implementing and auditing security controls across various AWS services, helping organizations maintain a strong security posture in accordance with the AWS Shared Responsibility Model .
@@ -115,16 +117,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ⭐ Star this repo if you found it useful!
 ```
-
-This README includes several important elements :
-1. Clear overview of the repository's purpose
-2. Key AWS security concepts explained concisely
-3. Practical checklist of security considerations
-4. Getting started guide with examples
-5. Contribution guidelines
-6. Comprehensive disclaimer
-7. Author information and acknowledgments
-
-The formatting uses proper Markdown syntax  with headings, lists, code blocks, and emojis to make it visually appealing and easy to navigate. The content is structured to answer the essential questions visitors might have about the project .
 
 Would you like me to modify any specific section or add more details about particular AWS security services?
