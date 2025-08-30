@@ -1,4 +1,6 @@
 
+ # The Building Security In Maturity Model (BSIMM)
+
 <img width="1536" height="706" alt="image" src="https://github.com/user-attachments/assets/443f820c-4127-4f98-9032-f94a4f9561e7" />
 
 ## Application Security Program
@@ -42,10 +44,10 @@ This document is a concise, action-oriented reference guide for implementing the
 
 -------
 # BSIMM (Building Security In Maturity Model) Framework Checklist
-**Version:** 1.0  
+**Version:** 0.8 
 **Author:** Ivan Piskunov  
-**Date:** August 30, 2025  
-**BSIMM Version:** BSIMM15 (2025)   
+**Date:** 2025  
+**BSIMM Version:** BSIMM v15 (2025)   
 
 ## Document Preface  
 This checklist provides a structured overview of key activities and practices from the Building Security In Maturity Model (BSIMM) framework. It is designed to help security professionals, development teams, and program leads quickly reference and implement BSIMM's data-driven software security practices based on real-world observations from hundreds of organizations .  
