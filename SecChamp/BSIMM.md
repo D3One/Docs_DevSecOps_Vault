@@ -11,3 +11,29 @@ BSIMM is a maturity model that helps organizations plan, implement and measure t
 
 
 BSIMM is not only the framework, but is also a measuring stick in the industry. BSIMM comes with an objective assessment of the different activities in 130 organizations from 8 industry verticals (financial services, independent software vendors, technology, healthcare, cloud, Internet of Things, insurance, and retail).
+
+# The Building Security In Maturity Model (BSIMM)
+**A Practical Implementation Guide & Reference**
+
+**Version:** 1.0
+**Author:** Ivan Piskunov
+**Date:** 2024/2025
+
+## Document Preface
+
+This document is a concise, action-oriented reference guide for implementing the Building Security In Maturity Model (BSIMM) practices. It distills the key activities from the framework into actionable workflows, control implementation guides, and process creation checklists.
+
+**Purpose:** To serve as a practical handbook for engineers, security champions, and team leads to build and mature a Software Security Initiative (SSI) based on real-world data from the BSIMM community.
+
+**Intended Audience:**
+*   **AppSec Engineers:** For building and scaling security programs.
+*   **DevSecOps Teams:** For integrating security controls into CI/CD pipelines.
+*   **Security Champions:** For understanding and promoting security within their teams.
+*   **Development Team Leads:** For implementing security processes within development lifecycles.
+*   **CISOs & BISOs:** For strategizing and measuring the progress of their SSI.
+
+<img width="701" height="970" alt="image" src="https://github.com/user-attachments/assets/5265401b-bbe2-4c33-a27e-6adc5e61b2a7" />
+
+<img width="1402" height="981" alt="image" src="https://github.com/user-attachments/assets/114e483a-6398-48ed-9cee-13befa789490" />
+
+
