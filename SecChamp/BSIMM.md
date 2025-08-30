@@ -32,8 +32,13 @@ This document is a concise, action-oriented reference guide for implementing the
 *   **Development Team Leads:** For implementing security processes within development lifecycles.
 *   **CISOs & BISOs:** For strategizing and measuring the progress of their SSI.
 
-<img width="701" height="970" alt="image" src="https://github.com/user-attachments/assets/5265401b-bbe2-4c33-a27e-6adc5e61b2a7" />
+   <p align="center">
+  <img src="https://github.com/user-attachments/assets/5265401b-bbe2-4c33-a27e-6adc5e61b2a7" />
+</p>
 
-<img width="1402" height="981" alt="image" src="https://github.com/user-attachments/assets/114e483a-6398-48ed-9cee-13befa789490" />
+   <p align="center">
+  <img src="https://github.com/user-attachments/assets/114e483a-6398-48ed-9cee-13befa789490" />
+</p>
+
 
 
