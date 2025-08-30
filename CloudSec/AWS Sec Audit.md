@@ -1,12 +1,8 @@
 
-
----
-
 # AWS Core Security Audit Checklist
 **Version:** 1.0
 **Author:** Ivan Piskunov
-**Date:** August 30, 2025
-
+**Date:** 2024
 
 <img width="960" height="720" alt="image" src="https://github.com/user-attachments/assets/40cabf2d-318f-46fb-8867-730c9e0c8b69" />
 
@@ -30,3 +26,5 @@ This document provides a structured, actionable checklist for conducting a high-
 4.  **Data Encryption & Key Management Audit**
 5.  **Backup & Recovery Audit**
 6.  **Monitoring & Logging Audit**
+
+   <img width="1317" height="919" alt="image" src="https://github.com/user-attachments/assets/0cde52a6-41c7-454b-9850-cba9398b76d8" />
