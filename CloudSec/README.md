@@ -60,7 +60,7 @@ Based on AWS's security framework and best practices, this repository covers the
 ### Using the Checklists
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/aws-cloud-security-essentials.git
+   git clone https://github.com/d3one/aws-cloud-security-essentials.git
    ```
 2. Review the detailed checklists in the `/checklists` directory
 3. Use the AWS Management Console or CLI commands provided to verify your configuration
@@ -117,5 +117,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ⭐ Star this repo if you found it useful!
 ```
-
-Would you like me to modify any specific section or add more details about particular AWS security services?
