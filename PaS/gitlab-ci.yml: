@@ -1,0 +1,14 @@
+stages:
+  - test
+  - security-sast  # <- PaC checks run here
+  - build
+  - deploy
+
+security_checks:
+  stage: security-sast
+  image: openpolicyagent/conftest:latest
+  script:
+    - conftest test Dockerfile --policy policy/dockerfile.rego
+    - conftest test deployment.yaml --policy policy/k8s_security.rego
+    - checkov -d terraform/
+  allow_failure: false # If any check fails, the pipeline fails.
